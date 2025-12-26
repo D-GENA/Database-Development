@@ -215,7 +215,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
     FOREIGN KEY (TableID) REFERENCES DiningTables(TableID)
 );
-indetr into Orders (CustomerID, TableID, OrderTime, Status) values
+insert into Orders (CustomerID, TableID, OrderTime, Status) values
 (1, 2, '2024-07-15 19:15', 'Completed'),
 (3, 5, '2024-07-16 20:30', 'In Progress'),
 (2, 1, '2024-07-15 18:45', 'Completed'),
