@@ -206,6 +206,8 @@ insert into Reservations (CustomerID, TableID, ReservationDate, ReservationTime,
 (31, 6, '2024-08-13', '19:00', 4, 'Confirmed', 'Vegetarian options needed'), 
 (32, 1, '2024-08-14', '18:00', 2, 'Confirmed', 'Special occasion');
 
+DROP TABLE IF EXISTS Orders;
+
 CREATE TABLE Orders (
     OrderID INT IDENTITY(1,1) PRIMARY KEY,
     CustomerID INT NULL,
