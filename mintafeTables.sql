@@ -300,7 +300,9 @@ insert into OrderItems (OrderID, MenuItemID, Quantity, SpecialRequest) values
 (3, 7, 2, 'Extra dressing on antipasto salad'),
 (4, 8, 1, 'Pesto sauce for gnocchi'),
 (5, 9, 2, 'No hazelnuts on Tartufo'), 
-(6, 10, 1, 'Extra olive oil on focaccia bread');
+(6, 10, 1, 'Extra olive oil on focaccia bread'), 
+(7, 1, 2, 'No capers in chicken piccata'),
+(8, 2, 1, 'No cream cheese in ricotta cheesecake');
 
 /*
 CREATE TABLE AuditLog (
