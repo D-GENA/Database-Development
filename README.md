@@ -1,7 +1,7 @@
 Mintafe_Db Project Documentation
 Database Development CS217
 Trevoir Williams
-Georgia Black, Shamari Blackwood, Renaldo Frazer, Odane Brown, Kavian Blades, Edwin Supré
+Members: Georgia Black, Shamari Blackwood, Renaldo Frazer, Odane Brown, Kavian Blades, Edwin Supré
 Vocational Training Development Institute
 December 9, 2025
  
