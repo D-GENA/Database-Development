@@ -73,6 +73,7 @@ Average preparation time cannot be calculated with the current schema, as the da
 Orders aren't identified per server per shift however this could be a useful metric and updated in the future.
 The database currently doesn't track the type of order, be it dine in or takeout, this could be a useful metric to implement.
 
+
 Conclusion
 
 The Mintafé Restaurant Ordering and Reservation database was successfully designed and implemented to support business and operational functions at its core and bring dining into the modern era. This database enables efficient storage, retrieval and analysis of customers, reservations, orders and menu information. This is facilitated by the structured use of relational tables, primary and foreign key relationships and normalized data design.
