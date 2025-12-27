@@ -31,7 +31,6 @@ Reduce data redundancy and improve accuracy
 Support reporting analysis
  
 Project Scope
-
 This database will include reservations, orders, customers, menu items.
 It will not include in this iteration online payments transactions, order delivery tracking, staff payroll.
 The timeline from conceptualization to creation of this database should be one (1) month. This incorporates planning, requirement analysis, design and development.
@@ -45,10 +44,9 @@ Data Dictionary
 -This is depicted in the "Data Dictionary" document.
 Explain the structure of each table, this includes column name, data type, description, primary/foreign key indicators
 Normalization Explanation, how transitive or partial dependencies were removed and how the design avoids redundancies.
-Design Overview
 
+Design Overview
 Database schema, tables, relationships and relevant diagrams
-  
 How the database is structured.
 Explanation of relationships between customers, reservations, orders, menu items and order items
 The reasoning for design choices, the use of primary keys and foreign keys
@@ -56,8 +54,7 @@ Implementation (SQL Scripts)
 Include create table statements, key constraints, sample insert statements.
 
 Sample Queries and Use Cases
-
-We seek to ask and answer questions like the folowing:
+We seek to ask and answer questions like the following:
 What are the peak hours for orders in the restaurant?
 How often are tables used over time?
 Which customers have placed the most orders?
@@ -78,4 +75,7 @@ The database currently doesn't track the type of order, be it dine in or takeout
 
 Conclusion
 
-Summarize the project and its outcome.
+The Mintafé Restaurant Ordering and Reservation database was successfully designed and implemented to support business and operational functions at its core and bring dining into the modern era. This database enables efficient storage, retrieval and analysis of customers, reservations, orders and menu information. This is facilitated by the structured use of relational tables, primary and foreign key relationships and normalized data design.
+The execution of analytical SQL queries demonstrated the the system’s ability ti provide meaningful insights, including peak ordering periods, table utilization, best-selling menu items, revenue trends, and cancellation patterns. These insights highlight how a well-designed database can support informed decision-making, improve operational efficiency and enhance customer service within a restaurant setting.
+While certain analytical capabilities sucj as preparation time analysis, staff performance tracking and order type comparisons aren’t available upon launch, these showcase a clear path forward and added opportunities for enhancement.
+
