@@ -132,7 +132,7 @@ OrderItems
 
 ---
 
-## C. Business Rules and Assumptions
+## Business Rules and Assumptions
 - Customers may place orders without reservations.
 - A dining table may have multiple reservations on different dates.
 - Each order must reference one dining table.
@@ -140,12 +140,12 @@ OrderItems
 
 ---
 
-## D. Security and Integrity
+## Security and Integrity
 - Referential integrity enforced through foreign keys.
 - Normalization reduces data redundancy.
 - Secure credential storage.
 
 ---
 
-## E. Conclusion
+## Conclusion
 The Mintafé database system provides a scalable and reliable solution for managing restaurant operations. The design follows best practices in relational database development and reflects real-world business requirements.
