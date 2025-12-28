@@ -27,9 +27,6 @@ The database is normalized to Third Normal Form (3NF).
 |---------|--------------|-------|---------|----------|-------|
 | 1 | John Brown | 876-555-1111 | 5 | Burgur | 1200 |
 | 1 | John Brown | 876-555-1111 | 5 | Soda | 300 |
-Each row now contains one food item
-But customer data still repeats
-
 
 ### Second Normal Form (2NF)
 - All non-key attributes depend on the full primary key.
@@ -44,9 +41,7 @@ But customer data still repeats
 | OrderItemID | OrderID | FoodItem | Price |
 |-------------|---------|----------|-------|
 | 1 | 1 | Burgur | 1200 |
-| 2 | 1 | SOda | 300 |
-Food price still depends on food name, not the order
-
+| 2 | 1 | Soda | 300 |
 
 ### Third Normal Form (3NF)
 - No transitive dependencies exist.
@@ -56,7 +51,7 @@ MenuItems Table
 | MenuItemID | ItemName | Price |
 |------------|----------|-------|
 | 1 | Burgur | 1200 |
-| 2 | Burgur | 300 |
+| 2 | Soda | 300 |
 
 OrderItems 
 | OrderItemID | OrderID | MenuItemID |
